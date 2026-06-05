@@ -33,10 +33,10 @@ mvn clean package -DskipTests
 ```bash
 mvn spring-boot:run
 ```
-The server starts on **http://localhost:8080**
+The server starts on **http://localhost:8082**
 
 ### Step 4 — (Optional) Open H2 Console
-Visit: http://localhost:8080/h2-console
+Visit: http://localhost:8082/h2-console
 - JDBC URL: `jdbc:h2:mem:performancedb`
 - Username: `amanverma`
 - Password: *secret*
